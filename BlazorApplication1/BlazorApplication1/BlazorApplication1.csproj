@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <OutputType>exe</OutputType>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <RunArguments>blazor serve</RunArguments>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Blazor.Compiler" Version="0.3.0" />
+    <PackageReference Include="Blazor.Runtime" Version="0.3.0" />
+    <DotNetCliToolReference Include="Blazor.Host" Version="0.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+</Project>
